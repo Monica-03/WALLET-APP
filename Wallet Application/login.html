@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>WALLET APP</title>
+        <style>
+            body,html {
+                height: 100%;
+            }
+            .bg {
+                background-image: url('bg.webp');
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #form {
+            width: 350px;
+            height: 300px;
+            border: 3px solid;
+            border-radius: 6%;
+            border-color: rgb(65, 64, 64);
+            box-shadow: 10px 10px #cdcfd1;
+        }
+        input[type=text], input[type=password] {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 0.5px solid #ccc;
+            border-radius: 20px;
+            border-color: rgb(37, 36, 36);
+            box-sizing: border-box;
+        }
+        button {
+            width: 35%;
+            background-color: rgb(53, 214, 214);
+            color: rgb(0, 0, 0);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px;
+            border-color: rgb(10, 184, 184);
+            border-radius: 40px;
+            cursor: pointer;
+        }
+            button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+            a {
+                color: rgb(39, 55, 239);
+                font-style: normal;
+                text-decoration: none;
+            }
+            h1 {
+                font-size: 1.5cm;
+                font-style: italic;
+                margin-right: 7.7cm;
+                float: right;
+            }
+            .img {
+                margin-left: 14%;
+                margin-top: 7%;
+                float: left; 
+                height: 350px;
+                width: 380px;	
+                border-radius: 5cm;
+            }
+            #div {
+                margin-right: 5cm;
+                float: right;
+            }
+        </style>
+    </head>
+    <body class="bg">
+        <div><img src="C:\Users\monic\Downloads\E-pay (2).png" class="img"></div>
+        <h1>Login</h1>
+        <br><br><br><br><br><br><br><br>
+        <div id="div">
+            <center><form id="form">
+                <br>
+                <input type="text" name="email" placeholder="email"><br><br>
+                <input type="password" name="password" placeholder="password"><br><br>
+                <a href="password.html">Forgot password?</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href="signin.html">Sign in</a><br><br><br>
+                <button type="submit" formaction="home.html">Login</button>
+            </form></center>
+        </div>
+    </body>
+</html>
